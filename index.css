@@ -1,55 +1,152 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 
-body{
+body {
     margin: auto;
 }
 
-
-/* Navbar Section */
-#navbar{
-    width: 100%;
-    height: 50px;
-    background-color: chocolate;
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: larger;
+}
+h1{
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+/* Navbar Section */
+#navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #85b6e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+#name {
+    width: 50%;
+    margin: 2%;
+}
+
+#details {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    gap: 10%;
+}
+
+/* Home Section */
+#home {
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+#image {
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+#intro{
+    width: 60%;
+    margin: auto;
+}
+
+#resume-a{
+    background-color: #85b6e4;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 40px;
+}
 
 /* About Me Section */
-#about-me{
-    height: 500px;
+#about-me {
+    height: 600px;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    text-align: center;
+
+}
+
+#about-me-cont {
+    display: flex;
+    gap: 10%;
+    align-items: center;
 }
 
 
 /* Skills Section */
-#skills{
-    height: 400px;
+#skills {
+    height: 500px;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+#all-skills{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-auto-rows: 50% 50%;
+    grid-gap: 1%;
+    align-content: space-around;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.skill-card{
+    height: 150px;
+    width: 150px;
+    background-color: #85b6e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.skill-card > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
 }
 
 
 /* Location Section */
-#location{
-    height: 400px;
+#location {
+    height: 600px;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    text-align: center;
 }
 
 
 /* Contact Section */
-#contact{
+#contact {
     height: 400px;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    text-align: center;
 }
 
 /* Footer Section */
-#footer{
+#footer {
     height: 100px;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    text-align: center;
 }
