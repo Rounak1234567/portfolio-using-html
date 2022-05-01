@@ -30,12 +30,12 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
 }
 
 #name {
     width: 50%;
-    margin: 2%;
+    margin: 10%;
 }
 
 #details {
@@ -73,7 +73,7 @@ h1{
 
 /* About Me Section */
 #about-me {
-    height: 600px;
+    height: 700px;
     width: 100%;
     /* border: 2px solid black; */
     text-align: center;
@@ -89,7 +89,7 @@ h1{
 
 /* Skills Section */
 #skills {
-    height: 500px;
+    height: 600px;
     width: 100%;
     /* border: 2px solid black; */
     text-align: center;
@@ -97,7 +97,7 @@ h1{
 
 #all-skills{
     width: 80%;
-    height: 400px;
+    height: 500px;
     margin: auto;
     text-align: center;
     display: grid;
@@ -110,8 +110,8 @@ h1{
 }
 
 .skill-card{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     background-color: #85b6e4;
     display: flex;
     align-items: center;
@@ -120,8 +120,8 @@ h1{
 }
 
 .skill-card > img{
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     border-radius: 10px;
 }
 
@@ -135,18 +135,15 @@ h1{
 }
 
 
-/* Contact Section */
-#contact {
-    height: 400px;
-    width: 100%;
-    /* border: 2px solid black; */
-    text-align: center;
-}
-
 /* Footer Section */
 #footer {
     height: 100px;
     width: 100%;
     /* border: 2px solid black; */
     text-align: center;
+}
+.footer-icon{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }
