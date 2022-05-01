@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
 body{
     margin: auto;
 }
@@ -13,28 +18,38 @@ body{
 
 /* About Me Section */
 #about-me{
-    
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
 }
 
 
 /* Skills Section */
 #skills{
-    
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
 }
 
 
 /* Location Section */
 #location{
-    
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
 }
 
 
 /* Contact Section */
 #contact{
-    
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
 }
 
 /* Footer Section */
 #footer{
-    
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
 }
