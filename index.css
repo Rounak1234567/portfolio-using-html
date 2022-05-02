@@ -21,6 +21,10 @@ h1{
     font-size: 48px;
     text-decoration: underline;
 }
+label{
+    font-family: 'DM Sans', sans-serif;
+    font-size: larger;
+}
 
 /* Navbar Section */
 #navbar {
@@ -31,6 +35,16 @@ h1{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+}
+#name > a{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Water Brush', cursive;
+    text-decoration: underline;
+}
+#details a{
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 #name {
@@ -49,15 +63,21 @@ h1{
 /* Home Section */
 #home {
     width: 100%;
-    height: 600px;
+    height: 700px;
     /* border: 2px solid black; */
     text-align: center;
 }
 
+#home > h1{
+    font-family: 'Tapestry', cursive;
+    
+}
+
 #image {
-    border-radius: 20px;
+    border-radius: 50px;
     height: 250px;
-    width: 250px;
+    width: 220px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 #intro{
     width: 60%;
@@ -69,6 +89,7 @@ h1{
     padding: 10px;
     font-size: 20px;
     border-radius: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 /* About Me Section */
@@ -89,7 +110,7 @@ h1{
 
 /* Skills Section */
 #skills {
-    height: 600px;
+    height: 700px;
     width: 100%;
     /* border: 2px solid black; */
     text-align: center;
@@ -117,6 +138,7 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .skill-card > img{
@@ -128,12 +150,60 @@ h1{
 
 /* Location Section */
 #location {
-    height: 600px;
+    height: 700px;
     width: 100%;
     /* border: 2px solid black; */
     text-align: center;
 }
+#location iframe{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+}
 
+/* Contact Section */
+#contact{
+    width: 100%;
+    height: 650px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+#contact-form{
+    text-align: left;
+    margin: auto;
+    width: 30%;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #85b6e4;
+}
+#contact-form textarea{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#contact-form>input{
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#contact > button{
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #85b6e4;
+    border: none;
+    font-size: large;
+    width: 100px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#contact > textarea{
+    border: 1px solid #85b6e4;
+}
 
 /* Footer Section */
 #footer {
@@ -146,4 +216,9 @@ h1{
     width: 30px;
     height: 30px;
     margin: 10px;
+}
+#footer > h3{
+    margin-top: 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
